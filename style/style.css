@@ -1,0 +1,94 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:  20px 30px;
+    overflow-y: hidden;
+    height: 10vh;
+}
+.logo{
+    overflow-y: hidden;
+    width: 5vw;
+    height: 5vh;
+}
+.login{
+    overflow-y: hidden;
+    font-size: 11px;
+    color: #A9AFBC;
+    height: 20px;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login:hover{
+    
+    background-color:#383c44;
+    color: white;
+    border-radius: 10px;
+}
+.wrapper{
+    background-image: url("../assets/images/main.jpeg");
+    background-size:cover;
+    background-position: center;
+    height: 70vh;
+    
+}
+
+.bundles{
+    margin-left: 25vw;
+    margin-right: 25vw;
+    color: #00ED82;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    overflow-y:hidden; 
+}
+.bundle-1, .bundle-2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+     
+}
+.bundles h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 10px;
+}
+.bundles a{
+    background-color: #1CE682;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.hulu-disney-espn img {
+    padding: 20px 0px;
+    max-width: 100%;
+}
+.hulu-disney img{
+    padding: 20px 0px;
+    max-width: 80%;
+}
+.section-disclaimer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    gap: 10px;
+    padding-top: 30px;
+    font-size: 10px;
+}
+.section-disclaimer a {
+    color: white;
+}
+.sign-up{
+    font-size: 12px;
+}
