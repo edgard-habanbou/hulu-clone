@@ -50,6 +50,7 @@
 .bundle-1, .bundle-2{
     flex: 1;
     display: flex;
+    overflow-y: hidden;
     flex-direction: column;
      
 }
@@ -58,6 +59,7 @@
     font-size: 1.7vw;
     font-weight: 500;
     color: white;
+    overflow-y: hidden;
     padding-bottom: 10px;
 }
 .bundles a{
@@ -66,16 +68,19 @@
     color: black;
     font-weight: bold;
     padding: 10px;
+    overflow-y: hidden;
     border-radius: 5px; 
 }
 
 .hulu-disney-espn img {
     padding: 2.4vh 0px;
     max-width: 200px;
+    height: 10vh;
 }
 .hulu-disney img{
     padding: 20px 0px;
     max-width: 200px;
+    height: 10vh;
 }
 .section-disclaimer{
     display: flex;
