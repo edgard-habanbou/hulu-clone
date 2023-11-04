@@ -1,7 +1,16 @@
+@font-face {
+    font-family: 'GraphikRegular';
+    src: url('../assets/fonts/Graphik-Font-Family/GraphikMedium.otf') format('opentype');
+}
+
+
+
 /* CSS Reset */
 *{
-    margin: 0;
-    padding: 0;
+    font-family: "GraphikRegular","sans-serif";
+    margin: 0px;
+    padding: 0px;
     border: 0px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
