@@ -171,6 +171,7 @@ color: white;
 .cards{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -241,15 +242,6 @@ color: white;
   cursor: pointer;
 }
 
-.tab-content {
-  display: none;
-  opacity: 0.8;
-
-}
-.tab-content:target {
-    display: block;
-    animation: none;
-}
 .tab-content h2{
     font-size: 40px;
 }
@@ -279,7 +271,7 @@ color: white;
 
 .section-three{
     color: white;
-    
+    background-color: #0B0D0E;
 }
 
 .tab-header{
@@ -327,4 +319,13 @@ color: white;
     object-fit:fill;
     margin: 10px;
     
+}
+
+/* I found this on Stack Overflow I tried to understand it but i couldn't */
+/* LINK: https://stackoverflow.com/questions/6906724/is-it-possible-to-have-tabs-without-javascript */
+.tab-folder > .tab-content:target ~ .tab-content:last-child, .tab-folder > .tab-content {
+    display: none;
+}
+.tab-folder > :last-child, .tab-folder > .tab-content:target {
+    display: block;
 }
