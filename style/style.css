@@ -43,10 +43,9 @@
     display: flex;
     padding-top: 5rem;
     gap: 20px;
-    font-size: 60%;
+    font-size: 15px;
     height: 40vh;
     font-weight: 600;
-    overflow-y:hidden; 
 }
 .bundle-1, .bundle-2{
     flex: 1;
@@ -67,17 +66,16 @@
     color: black;
     font-weight: bold;
     padding: 10px;
-    border-radius: 5px;
-    
+    border-radius: 5px; 
 }
 
 .hulu-disney-espn img {
-    padding: 20px 0px;
-    max-width: 100%;
+    padding: 2.4vh 0px;
+    max-width: 200px;
 }
 .hulu-disney img{
     padding: 20px 0px;
-    max-width: 80%;
+    max-width: 200px;
 }
 .section-disclaimer{
     display: flex;
@@ -329,6 +327,7 @@ color: white;
 .tab-folder > :last-child, .tab-folder > .tab-content:target {
     display: block;
 }
+
 /* Section four start */
 .section-four{
     color: white;
@@ -358,6 +357,7 @@ color: white;
 }
 .row{
     font-size: 1rem;
+    padding-bottom: 40px;
 }
 .vertical {
     border-left: 2px solid grey;
@@ -418,4 +418,47 @@ hr {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+}
+/* Section four End */
+/* Section five start */
+.section-five {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 70px;
+    background-color: #E9EAEC;
+    padding: 50px;
+}
+.section-five a{
+    text-decoration: none;
+    font-size:12px;
+    color: #596074;
+}
+.section-five div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.browse{
+    width: 100vw;
+}
+.footer{
+    background-color: #E9EAEC;
+    padding: 0px 60px;
+    min-height: 200px;
+    
+}
+.footer a, .footer p{
+    text-decoration: none;
+    color: #596074;
+    font-size: 12px; 
+    padding: 3px;
+}
+.links input{
+    padding: 0px 10px 20px 0px;
+    height: 4vh;
+    width: 5vw;
 }
