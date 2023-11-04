@@ -232,3 +232,99 @@ color: white;
 .hulu-plus-info{
     font-size: 9px;
 }
+/* section two end */
+
+/* section three start */
+.tab-button {
+  display: inline-block;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+.tab-content {
+  display: none;
+  opacity: 0.8;
+
+}
+.tab-content:target {
+    display: block;
+    animation: none;
+}
+.tab-content h2{
+    font-size: 40px;
+}
+.tab-content p{
+    padding-top: 50px;
+    font-size: 15px;
+}
+
+.tab-button:hover {
+  filter: brightness(50%);
+}
+
+.live-bundle-info{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100vw;
+}
+
+.section-three a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-three{
+    color: white;
+    
+}
+
+.tab-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20vh;
+    font-size: larger;
+}
+
+.live-sport{
+    background-image: url("../assets/images/sports-bg.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+
+}
+.terms{
+    font-size: 10px;
+}
+.breaking-news{
+    background-image: url("../assets/images/news.jpeg");
+    background-size: cover;
+    background-position: center ;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.biggest-events{
+    background-image: url("../assets/images/biggest-event.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.sports-network img{
+    background-color: white;
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    object-fit:fill;
+    margin: 10px;
+    
+}
